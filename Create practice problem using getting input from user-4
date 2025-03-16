@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class c {
+    public static void main(String args[]){
+        Scanner a=new Scanner(System.in);
+        int b=a.nextInt();
+        int c=a.nextInt();
+        int num1=b;
+        int num2=c;
+        if(num1==num2){
+            System.out.println("Both the numbers are equal");
+        }
+        else{
+            System.out.println("Not equal");
+        }
+    }
+}
