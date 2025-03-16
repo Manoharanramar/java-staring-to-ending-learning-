@@ -1,0 +1,15 @@
+//1)Get input for variable:Name,age and address and print it
+import java.util.Scanner;
+public class getinputnameaageadd {
+    public static void main(String args[]){
+        Scanner a=new Scanner(System.in);
+        String name=a.nextLine();
+        int age=a.nextInt();
+        a.nextLine();
+        String Address=a.nextLine();
+        System.out.println("My name is"+name);
+        System.out.println("My age is"+age);
+        System.out.println("My address is"+Address);
+
+    }
+}
