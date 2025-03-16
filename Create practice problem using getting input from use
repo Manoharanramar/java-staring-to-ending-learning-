@@ -1,0 +1,15 @@
+//3)Get input for 3 variales:Name,score,department.Let the user enter the score for 100 marks,you convert it for 10 and print it... 
+import java.util.Scanner;
+public class input {
+    public static void main(String[] args) {
+        Scanner a=new Scanner(System.in);
+        String Name=a.nextLine();
+        Double Score=a.nextDouble();
+        a.nextLine();
+        String Department=a.nextLine();
+        Double c=Score/10;
+        System.out.println("Name:"+Name);
+        System.out.println("Score:"+c);
+        System.out.println("Department:"+Department);
+    }
+}
