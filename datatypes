@@ -1,0 +1,24 @@
+class datatype{
+    public static void main(String[] args) {
+        int a=10;//range of -2147483648 to 2147483647
+        long b=20;//range of -9223372036854775808 to 9223372036854775807
+        short c=30;//range of -32768 to 32767
+        byte d=125;//range of -128 to 127
+        float e=12.547876f;//only store 6 to 7 numbers after '.' and last put 'f'
+        double f=12.547856755f;//store 15 numbers after decimal point
+        char g='a';//only one letter store in 'single courtes'
+        String h="Manoharan";//multiple letter of char is string
+        boolean i=true;
+        boolean j=false;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+        System.out.println(h);
+        System.out.println(i);
+        System.out.println(j);
+    }
+}
