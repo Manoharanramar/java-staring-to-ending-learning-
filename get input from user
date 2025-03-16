@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class getinput {
+    //scanner helps to get input from user like terminal
+    public static void main(String args[]){
+        Scanner a=new Scanner(System.in);
+        String b=a.nextLine();
+        int c=a.nextInt();
+        System.out.println("name:"+b);
+        System.out.println("age:"+c);
+
+    }
+}
